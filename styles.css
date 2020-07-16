@@ -1,0 +1,404 @@
+body {
+  margin: 0px;
+}
+.menu ul {
+  margin: 0px;
+}
+
+.main_menu {
+  background-image: url(/04E85934-0581-4E96-8A94-D1524D1D520C_1_105_c.jpeg);
+  background-size: cover;
+  position: relative;
+  height: 100%;
+}
+
+.main_menu::before {
+  background-color: rgba(0,0,0,0.4);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+.box {
+  position: relative;
+}
+
+.button {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.btn-sticky {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #f7f7f7;
+  border-left: solid 6px #ff7c5c;
+  color: #ff7c5c;
+  font-weight: bold;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+}
+
+.btn-sticky:active {
+  box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
+  transform: translateY(2px);
+}
+
+.box h1 {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 200px;
+  color:white;
+  font-size: 45px;
+}
+
+.self-introduction {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 0px;
+  text-align: left;
+  display: block;
+  background-image: url(/trees.png);
+  padding-bottom: 25px;
+}
+
+.self-introduction h1{
+  margin-top: 0px;
+  padding-top: 20px;
+}
+
+.plan {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 0px;
+  text-align: left;
+  display: block;
+  background-image: url(/food.png);
+}
+
+.contact {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 0px;
+  text-align: left;
+  display: block;
+  background-image: url(/congruent_pentagon.png);
+}
+
+.menu {
+  background-color: skyblue;
+}
+
+.menu ul li {
+  display: inline;
+  
+}
+
+.text {
+  background-image: url(/light-veneer.png);
+  text-align: center;
+}
+
+.text img {
+  width: 220px;
+  height: 230px;
+  padding: 20px 0px 60px 0px;
+}
+
+.instagram {
+  text-align: center;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.intro_menu {
+  background-image: url(/FC5FA88E-84A7-4DDC-9460-6B740D8DFEE9_1_105_c.jpeg);
+  background-size: cover;
+  position: relative;
+  height: 100%;
+}
+
+.intro_menu::before {
+  background-color: rgba(0,0,0,0.4);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+.intro_menu h1 {
+  color: white;
+}
+
+.plan_menu {
+  background-image: url(/3A6D0904-1F59-4F71-A378-97AFD86DA3F8_1_105_c.jpeg);
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
+
+.plan_menu::before {
+  background-color: rgba(0,0,0,0.4);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+.plan_text {
+  margin-top: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.contact_menu {
+  background-image: url(/394C4671-6819-4C69-9D56-6DD0E8E04A81_1_105_c.jpeg);
+      background-size: cover;
+      position: relative;
+      height: 100%;
+}
+
+.contact_menu::before {
+  background-color: rgba(0,0,0,0.4);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+.contact_text h1{
+  margin-top: 0px;
+  padding-top: 25px;
+}
+
+.contact_text p{
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width:480px) {
+  .main_menu {
+    background-image: url(/04E85934-0581-4E96-8A94-D1524D1D520C_1_105_c.jpeg) no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: right 10% bottom 10%;
+  height: 100%;
+  }
+
+  .main_menu::before {
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';
+  }
+
+  .main_menu h1 {
+    font-size: 35px;
+  }
+  
+  .intro_menu {
+    background-image: url(/04E85934-0581-4E96-8A94-D1524D1D520C_1_105_c.jpeg) no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: right 10% bottom 10%;
+  height: 100%;
+  }
+
+  .box h1 {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+  
+  .plan_menu {
+    background-image: url(/3A6D0904-1F59-4F71-A378-97AFD86DA3F8_1_105_c.jpeg);
+      background-size: cover;
+      position: relative;
+      height: 100%;
+  }
+
+  .contact_menu {
+    background-image: url(/394C4671-6819-4C69-9D56-6DD0E8E04A81_1_105_c.jpeg);
+        background-size: cover;
+        position: relative;
+        background-position: right 10% bottom 10%;
+        height: 100%;
+  }
+  
+  .contact h1 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  .contact p {
+    padding-bottom: 80px;
+  }
+
+}
+
+@media screen and (max-width:1000px) {
+  .plan_menu {
+    background-image: url(/3A6D0904-1F59-4F71-A378-97AFD86DA3F8_1_105_c.jpeg);
+      background-size: cover;
+      position: relative;
+      height: 100%;
+      background-position: right 10% bottom 65%;
+  }
+
+  .plan_menu h1{
+    padding-bottom: 150px;
+    padding-top: 150px;
+    margin-bottom: 0px;
+  }
+
+  .contact h1{
+    padding-top: 80px;
+  }
+
+  .contact p {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
+  .box h1 {
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  
+  .self-introduction h1 {
+    padding-top: 30px;
+  }
+
+  .text img {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .main_menu {
+    background-position: right 10% bottom 65%;
+  }
+  
+  .plan_menu {
+    background-position: right 10% bottom 65%;
+  }
+
+  .plan_menu h1 {
+    padding-bottom: 220px;
+  }
+  
+  .box h1{
+    margin-bottom: 0px;
+  }
+  
+  .plan_text h1{
+    padding-top: 60px;
+  }
+
+  .plan_text p{
+    padding-top: 40px;
+  }
+
+  .contact_menu h1 {
+    padding-top: 300px;
+  }
+
+  .contact h1 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .contact p {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+
+  .contact_menu {
+    background-position: right 10% bottom 65%;
+  }
+  
+  .button {
+    padding-top: 150px;
+    padding-bottom: 200px;
+  }
+
+  .text a{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .box h1{
+    padding-bottom: 100px;
+  }
+
+}
+
+@media screen and (min-width:1025px) {
+
+  .main_menu h1 {
+    font-size: 100px;
+  }
+
+  .main_menu {
+    background-position: right 10% bottom 65%;
+  }
+
+  .box h1 {
+    padding-top: 400px;
+    padding-bottom: 400px;
+    margin-bottom: 0px;
+  }
+
+  .button {
+    padding-bottom: 100px;
+  }
+
+  .self-introduction {
+    padding-left: 35%;
+    padding-right: 35%;
+  }
+  
+  .self-introduction h1{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+   
+  .plan_menu {
+    background-position: right 10% bottom 55%;
+  }
+  
+  .plan {
+    padding-left: 35%;
+    padding-right: 35%;
+  }
+
+  .contact_menu {
+    background-position: right 10% bottom 40%;
+  }
+  
+  .contact h1 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+   
+  .contact {
+    padding-left: 45%;
+    padding-right: 35%;
+  }
+
+}
