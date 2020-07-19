@@ -6,7 +6,7 @@ body {
 }
 
 .main_menu {
-  background-image: url(/04E85934-0581-4E96-8A94-D1524D1D520C_1_105_c.jpeg);
+  background-image: url(04E85934-0581-4E96-8A94-D1524D1D520C_1_105_c.jpeg);
   background-size: cover;
   position: relative;
   height: 100%;
@@ -62,7 +62,7 @@ body {
   margin: 0px;
   text-align: left;
   display: block;
-  background-image: url(/trees.png);
+  background-image: url(trees.png);
   padding-bottom: 25px;
 }
 
@@ -77,7 +77,7 @@ body {
   margin: 0px;
   text-align: left;
   display: block;
-  background-image: url(/food.png);
+  background-image: url(food.png);
 }
 
 .contact {
@@ -86,7 +86,7 @@ body {
   margin: 0px;
   text-align: left;
   display: block;
-  background-image: url(/congruent_pentagon.png);
+  background-image: url(congruent_pentagon.png);
 }
 
 .menu {
@@ -99,7 +99,7 @@ body {
 }
 
 .text {
-  background-image: url(/light-veneer.png);
+  background-image: url(light-veneer.png);
   text-align: center;
 }
 
@@ -117,7 +117,7 @@ body {
 }
 
 .intro_menu {
-  background-image: url(/FC5FA88E-84A7-4DDC-9460-6B740D8DFEE9_1_105_c.jpeg);
+  background-image: url(FC5FA88E-84A7-4DDC-9460-6B740D8DFEE9_1_105_c.jpeg);
   background-size: cover;
   position: relative;
   height: 100%;
@@ -138,7 +138,7 @@ body {
 }
 
 .plan_menu {
-  background-image: url(/3A6D0904-1F59-4F71-A378-97AFD86DA3F8_1_105_c.jpeg);
+  background-image: url(3A6D0904-1F59-4F71-A378-97AFD86DA3F8_1_105_c.jpeg);
     background-size: cover;
     position: relative;
     height: 100%;
@@ -161,7 +161,7 @@ body {
 }
 
 .contact_menu {
-  background-image: url(/394C4671-6819-4C69-9D56-6DD0E8E04A81_1_105_c.jpeg);
+  background-image: url(394C4671-6819-4C69-9D56-6DD0E8E04A81_1_105_c.jpeg);
       background-size: cover;
       position: relative;
       height: 100%;
@@ -188,7 +188,7 @@ body {
 
 @media screen and (max-width:480px) {
   .main_menu {
-    background-image: url(/04E85934-0581-4E96-8A94-D1524D1D520C_1_105_c.jpeg) no-repeat;
+    background-image: url(04E85934-0581-4E96-8A94-D1524D1D520C_1_105_c.jpeg) no-repeat;
   background-size: cover;
   position: relative;
   background-position: right 10% bottom 10%;
@@ -210,7 +210,7 @@ body {
   }
   
   .intro_menu {
-    background-image: url(/04E85934-0581-4E96-8A94-D1524D1D520C_1_105_c.jpeg) no-repeat;
+    background-image: url(04E85934-0581-4E96-8A94-D1524D1D520C_1_105_c.jpeg) no-repeat;
   background-size: cover;
   position: relative;
   background-position: right 10% bottom 10%;
@@ -223,14 +223,14 @@ body {
   }
   
   .plan_menu {
-    background-image: url(/3A6D0904-1F59-4F71-A378-97AFD86DA3F8_1_105_c.jpeg);
+    background-image: url(3A6D0904-1F59-4F71-A378-97AFD86DA3F8_1_105_c.jpeg);
       background-size: cover;
       position: relative;
       height: 100%;
   }
 
   .contact_menu {
-    background-image: url(/394C4671-6819-4C69-9D56-6DD0E8E04A81_1_105_c.jpeg);
+    background-image: url(394C4671-6819-4C69-9D56-6DD0E8E04A81_1_105_c.jpeg);
         background-size: cover;
         position: relative;
         background-position: right 10% bottom 10%;
@@ -250,7 +250,7 @@ body {
 
 @media screen and (max-width:1000px) {
   .plan_menu {
-    background-image: url(/3A6D0904-1F59-4F71-A378-97AFD86DA3F8_1_105_c.jpeg);
+    background-image: url(3A6D0904-1F59-4F71-A378-97AFD86DA3F8_1_105_c.jpeg);
       background-size: cover;
       position: relative;
       height: 100%;
